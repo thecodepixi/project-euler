@@ -5,7 +5,7 @@ def fib_total(max):
   while a < max:
     if a % 2 == 0:
       total += a
-    a, b = b, a+b
+    a, b = b, a + b
   return total 
 
 print(fib_total(4_000_000))
